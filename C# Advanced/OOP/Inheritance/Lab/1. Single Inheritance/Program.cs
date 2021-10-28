@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace CustomRandomList
+namespace Farm
 {
     public class StartUp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Dog dog = new Dog();
+            dog.Bark();
+            dog.Eat();
         }
     }
 }
